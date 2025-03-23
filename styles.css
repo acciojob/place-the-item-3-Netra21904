@@ -1,2 +1,11 @@
-
-/* Your CSS Code here. */
+.holder {
+            display: flex;
+            justify-content: space-around; /* or space-evenly */
+            flex-wrap: wrap; /* Important for wrapping */
+            width: 100%; /* Ensure holder takes full width */
+        }
+        .item {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 5px; /* Add margin for spacing items */
+        }
